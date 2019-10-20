@@ -40,7 +40,7 @@ window.onload = function () {
 	})
 
 request = new XMLHttpRequest();
-request.open('GET', '..config.xml', true);
+request.open('GET', 'config.xml', true);
 
 request.onload = function() {
   if (request.status >= 200 && request.status < 400){
