@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<test>
-</test>
+<writers>
+	<writer name="hwal">
+		<article id="first">
+			<title>중국 그래픽 디자인의 젊은 행보</title>
+		</article>
+	</writer>
+
+	<writer name="saerom">
+
+	</writer>
+
+	<writer name="sarok">
+		<article id="first">
+			<title>지금, 중국 그래픽디자인</title>
+		</article>
+	</writer>
+</writers>

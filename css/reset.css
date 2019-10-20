@@ -76,6 +76,7 @@ button, input {
 ::selection {
 	background:transparent;
 }
-a:link, a:visited {
+
+a:visited {
   text-decoration: none;
 }
