@@ -17,7 +17,7 @@
 				let writer = target.parentElement.dataset.name
 				let id = target.dataset.id
 				let url = `articles/${writer}/${id}.json`
-				let selected = menu[i].querySelector('.selected')
+				let selected = document.querySelector('.selected')
 
 				if (selected) selected.classList.remove('selected')
 				target.classList.add('selected')
