@@ -17,7 +17,7 @@
 				let writer = target.parentElement.dataset.name
 				let id = target.dataset.id
 				let url = `articles/${writer}/${id}.json`
-				let selected = document.querySelector('.selected')
+				let selected = document.querySelector('.child-menu .selected')
 
 				if (selected) selected.classList.remove('selected')
 				target.classList.add('selected')
@@ -44,6 +44,8 @@
 
 		homeButton.addEventListener('click', function (e) {
 			e.preventDefault()
+			let selected = document.querySelector('.child-menu .selected')
+			if (selected) selected.classList.remove('selected')
 			text.classList.add('hidden')
 			about.classList.add('hidden')
 			home.classList.remove('hidden')
@@ -51,6 +53,8 @@
 	
 		aboutButton.addEventListener('click', function (e) {
 			e.preventDefault()
+			let selected = document.querySelector('.child-menu .selected')
+			if (selected) selected.classList.remove('selected')
 			home.classList.add('hidden')
 			text.classList.add('hidden')
 			about.classList.remove('hidden')
